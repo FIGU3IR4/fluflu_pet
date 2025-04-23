@@ -1,13 +1,13 @@
 import './App.css'
-import Header from './componentes_reutilizaveis/header'
+import PrimeirosSocorros from './primeiros_socorros'
 
 function App() {
  
 
   return (
     <>
-    
-       <Header />
+      <PrimeirosSocorros/>
+      
     </>
   )
 }
