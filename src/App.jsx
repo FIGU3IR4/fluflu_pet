@@ -1,15 +1,19 @@
-import './App.css'
-import PrimeirosSocorros from './primeiros_socorros'
+import "./App.css";
+import PrimeirosSocorros from "./primeiros_socorros";
+import Clinicas from "./Clinicas";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
- 
-
   return (
     <>
-      <PrimeirosSocorros/>
-      
+      <BrowserRouter>
+        <Routes>
+          <Route path="/primeiros-socorros" element={<PrimeirosSocorros />} />
+          <Route path="/clinicas" element={<Clinicas/>} />
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
