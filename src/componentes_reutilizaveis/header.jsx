@@ -30,7 +30,7 @@ const Header = () => {
             <div class="user-icon">
               <i class="fa-solid fa-user"></i>{" "}
               <strong>
-                <p>Victor é feliz</p>
+                <p>Victor é feliz até demais</p>
               </strong>
             </div>
             <div>
