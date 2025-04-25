@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./componentes_reutilizaveis/header";
+import Header from "../componentes_reutilizaveis/header";
 
 const PrimeirosSocorros = () => {
   return (  
