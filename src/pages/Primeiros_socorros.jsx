@@ -5,7 +5,7 @@ import Main_sos from "../components/componentes_clinicas/main_sos";
 
 const PrimeirosSocorros = () => {
   return (
-    <div className="primeiros-socorros">
+    <div >
       <Header />
       <div>
         <Main_sos />

@@ -1,20 +1,24 @@
+.main-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 30px; 
+  padding: 40px;
+  background-color: #ffffff; 
+}
 
-
-.instruct{
-  background-color: rgb(249, 116, 43);
-  width: 550px;
-  height: 400px;
-  margin-left: 200px;
+.instruct {
+  background-color: rgb(249, 116, 43); 
+  padding: 30px;
   border-radius: 0px 25px 25px 0px;
   color: white;
-  
-  }
-  .instruct h1, h2{
-    text-decoration: underline;
-    text-align: center;
+  max-width: 600px;
+}
 
-  }
-  .instruct h3{
-    padding-left: 60px;
-    
-  }
+.circle {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(10,131,132); 
+  border-radius: 50%;
+   ;
+}
