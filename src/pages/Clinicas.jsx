@@ -19,15 +19,15 @@ const Clinicas = () => {
       <Clinica clinica={{
         src: "https://cdn.folhape.com.br/upload/dn_arquivo/2020/11/whatsapp-image-2020-11-06-at-152544_1.jpeg",
         nome: "Petz",
-        endereco: "Rua Professor João Medeiros, 139",
-        telefone: "(81) 3033-7590"
+        endereco: "Rua do Libano nº 598",
+        telefone: "(81) 34587951"
        }} />
 
       <Clinica clinica={{
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_DdHZfC5PDLWzP_Nhh89rpZcTsbgIidk1Cw&s",
         nome: "Oh Pet",
         endereco: "Rua Alberto Paiva, 275-Graças, Recife",
-        telefone: "(81)96790050"
+        telefone: "(8196790050"
        }} />
 
       
