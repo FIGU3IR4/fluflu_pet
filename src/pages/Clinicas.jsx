@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../componentes_reutilizaveis/header";
 import Footer from "../componentes_reutilizaveis/Footer";
-import main_sos from "../components/componentes_clinicas/main_sos";
 import Clinica from "../components/componentes_primeiros socorros/Clinicacomponent";
 
 const Clinicas = () => {
@@ -30,7 +29,7 @@ const Clinicas = () => {
         telefone: "(8196790050"
        }} />
 
-      
+      <Footer/>
 
     </div>
   );
