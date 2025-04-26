@@ -1,3 +1,5 @@
+
+
 .instruct{
   background-color: rgb(249, 116, 43);
   width: 550px;
@@ -5,9 +7,14 @@
   margin-left: 200px;
   border-radius: 0px 25px 25px 0px;
   color: white;
-  text-align: center;
+  
   }
-  .instruct h1{
-    text-decoration: underline
+  .instruct h1, h2{
+    text-decoration: underline;
+    text-align: center;
 
+  }
+  .instruct h3{
+    padding-left: 60px;
+    
   }
