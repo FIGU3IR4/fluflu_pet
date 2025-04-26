@@ -1,0 +1,24 @@
+.barra {
+  display: flex;
+  align-items: center;
+  background: rgb(176, 175, 175);
+  border-radius: 8px;
+  padding: 5px 10px;
+  max-width: 300px;
+}
+
+.barra i {
+  color: #666;
+  margin-right: 8px;
+  color: rgb(249, 116, 43);
+}
+
+.barra input {
+  border-radius: 8px;
+  width: 220px;
+  height: 35px;
+  border: none;
+  background: rgb(176, 175, 175);
+  outline: none;
+  font-size: 14px;
+}
