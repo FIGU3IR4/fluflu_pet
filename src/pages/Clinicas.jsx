@@ -10,7 +10,7 @@ const Clinicas = () => {
 
       <Header />
       
-      <Barra_pesquisa/>
+     
 
       <Footer/>
 
