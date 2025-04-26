@@ -13,16 +13,16 @@ const Header = () => {
           <div class="menu-bar">
             <ul class="menu">
               <li>
-                <a href="#">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="#">Petfit</a>
+                <a href="/petfit">Petfit</a>
               </li>
               <li>
-                <a href="#">Clinicas</a>
+                <a href="/clinicas">Clinicas</a>
               </li>
               <li>
-                <a href="#"> Primeiros socorros</a>
+                <a href="/primeiros-socorros"> Primeiros socorros</a>
               </li>
             </ul>
           </div>
