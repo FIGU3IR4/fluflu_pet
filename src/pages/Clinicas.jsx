@@ -39,6 +39,15 @@ const Clinicas = () => {
             telefone: "(8196790050",
           }}
         />
+        <Clinica
+          clinica={{
+            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNdPPAGFYDrV5Hm4x6Eh8FqxyMJUFR1Q-4BA&s",
+            nome: "Pro-Animal",
+            endereco: "Rua Lima Campos nº 10",
+            telefone: "(81) 987905127",
+          }}
+        />
+        
       </div>
 
       <Footer />
