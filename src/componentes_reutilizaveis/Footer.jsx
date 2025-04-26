@@ -20,7 +20,7 @@ function Footer(){
                 <p>Desenvolvedores:</p>
                 <ul className="dev-list">
                     <li>Victor Figueira</li>
-                    <li>Welsey Figueira</li>
+                    <li>Wesley Figueira</li>
                     <li>Allan D'Avila</li>
                     <li>Fabio Reis</li>
                 </ul>
