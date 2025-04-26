@@ -5,16 +5,18 @@ import Main_sos from "../components/componentes_clinicas/main_sos";
 
 const PrimeirosSocorros = () => {
   return (
-    <div >
-      <Header />
-      <div>
-        <Main_sos />
-      </div>
+    
+    <div><Header />
 
-      <div className="squadros-primeiros-socorros">
-        <Footer />
-      </div>
-    </div>
+        <Main_sos />
+      
+
+      
+        <Footer /></div>
+      
+      
+      
+   
   );
 };
 export default PrimeirosSocorros;
