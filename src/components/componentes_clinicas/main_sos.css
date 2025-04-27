@@ -1,24 +1,129 @@
 .main-container {
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  flex-direction: column; 
   align-items: center; 
-  gap: 30px; 
   padding: 40px;
-  
+  background-color: white;
+  gap: 0px;
+}
+
+.top-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 30px;
+  width: 100%;
+}
+
+.top-content-inner {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .instruct {
-  background-color: rgb(249, 116, 43); 
-  padding: 30px;
+  background-color: rgb(249, 116, 43);
+  padding: 40px 250px 40px 40px; /* espaço para o círculo */
   border-radius: 0px 25px 25px 0px;
   color: white;
   max-width: 600px;
+  z-index: 2;
+  position: relative;
 }
 
 .circle {
   width: 500px;
   height: 500px;
-  background-color: rgb(10,131,132); 
+  background-color: rgb(10, 131, 132);
   border-radius: 50%;
-   ;
+  position: relative;
+  margin-left: -150px;
+  overflow: visible;
+  z-index: 3;
+  top: -60px; /* <<--- Este é o novo ajuste importante! */
+}
+
+.circle::after {
+  content: '';
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+  background-image: url('/src/imgs/pets.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.primeiros_socorros_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-items: stretch;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap; 
+  max-width: 1100px;
+}
+
+.primeiros_socorros {
+  flex: 1;
+  max-width: 500px;
+  background-color: rgb(10, 131, 132);
+  color: white;
+  padding: 35px;
+  border-radius: 15px;
+  width: 45%;
+  min-width: 300px;
+}
+
+.primeiros_socorros2 {
+  flex: 1;
+  max-width: 500px;
+  background-color: rgb(249, 116, 43);
+  color: white;
+  padding: 35px;
+  border-radius: 15px;
+  width: 45%;
+  min-width: 300px;
+}
+
+.dica_geral {
+  background-color: rgb(10, 131, 132);
+  color: white;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 1000px;
+  text-align: center;
+}
+.link_informações {
+  background-color: rgb(249, 116, 43);
+  color: white;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 1000px;
+  text-align: center;
+}
+.link_informações a, p {
+  color: white;
+  text-decoration: none; 
+  transition: color 0.3s ease;
+}
+
+.link_informações a:hover {
+  color: rgb(10, 131, 132);
+  text-decoration: underline; 
+}
+.link_informações p:hover {
+  color: rgb(10, 131, 132);
+  text-decoration: underline; 
 }
