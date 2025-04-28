@@ -1,6 +1,4 @@
-/* Avaliacao_clinica.css */
 
-/* Estilização geral */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -158,11 +156,7 @@ body {
 }
 
 .secao-pesquisa {
-  flex: 1 1 48%; /* Ajusta a largura para ocupar metade da linha */
+  flex: 1 1 48%; 
   min-width: 280px;
 }
 
-/* Define a cor verde global para todos os textos */
-* {
-  color: #009688;
-}
