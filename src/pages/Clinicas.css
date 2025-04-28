@@ -1,4 +1,13 @@
 .Lojas_clinicas{
   display: flex;
   margin-top: 50px;
+
 }
+
+.Lojas_clinicas i{
+  width: 120px;
+  
+  padding-top: 170px;
+  
+}
+

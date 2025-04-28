@@ -13,6 +13,9 @@ const Clinicas = () => {
 
       <Barra_pesquisa />
       <div className="Lojas_clinicas">
+      <i class="fa-solid fa-arrow-left"></i>
+
+        
         <Clinica
           clinica={{
             src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNdPPAGFYDrV5Hm4x6Eh8FqxyMJUFR1Q-4BA&s",
@@ -47,7 +50,7 @@ const Clinicas = () => {
             telefone: "(81) 987905127",
           }}
         />
-        
+        <i class="fa-solid fa-arrow-right"></i>
       </div>
 
       <Footer />

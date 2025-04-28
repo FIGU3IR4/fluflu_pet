@@ -1,0 +1,168 @@
+/* Avaliacao_clinica.css */
+
+/* Estilização geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fef8f6;
+}
+
+.container-pesquisa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.cartao-pesquisa {
+  background-color: #ffffff;
+  padding: 30px;
+  width: 95%;
+  max-width: 1200px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.titulo-pesquisa {
+  font-size: 1.8rem;
+  color: #009688;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.secao-pesquisa {
+  flex: 1 1 calc(33% - 20px);
+  min-width: 280px;
+}
+
+.secao-pesquisa p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #009688; /* Letras verdes */
+}
+
+.opcoes-pesquisa label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #009688; /* Letras verdes */
+}
+
+.opcoes-pesquisa input {
+  margin-right: 8px;
+}
+
+.escala-pesquisa {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.escala-pesquisa span {
+  font-size: 0.9rem;
+  color: #009688; /* Letras verdes */
+}
+
+.escala-pesquisa label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #009688; /* Letras verdes */
+}
+
+.escala-pesquisa input {
+  margin-bottom: 5px;
+}
+
+.avaliacao-pesquisa p {
+  margin-bottom: 5px;
+  color: #009688; /* Letras verdes */
+  font-size: 1rem;
+}
+
+.estrelas-pesquisa {
+  display: flex;
+  gap: 5px;
+}
+
+.estrelas-pesquisa label {
+  cursor: pointer;
+  font-size: 1.5rem; /* Maior visibilidade */
+  color: #cccccc; /* Cor padrão da estrela */
+  transition: color 0.3s ease;
+}
+
+.estrelas-pesquisa input {
+  display: none; /* Oculta os inputs */
+}
+
+/* Estrelas amarelas ao selecionar */
+.estrelas-pesquisa input:checked ~ label {
+  color: #ffa500; /* Cor amarela */
+}
+
+/* Destaca as estrelas anteriores à selecionada */
+.estrelas-pesquisa input:checked ~ label ~ label {
+  color: #ffa500; /* Cor amarela */
+}
+
+.campo-texto {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  resize: none;
+}
+
+.campo-texto:focus {
+  outline: none;
+  border-color: #009688;
+}
+
+.secao-enviar {
+  text-align: center;
+  width: 100%;
+}
+
+.botao-enviar {
+  background-color: #009688;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao-enviar:hover {
+  background-color: #00796b;
+}
+
+/* Layout horizontal */
+.cartao-pesquisa {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.secao-pesquisa {
+  flex: 1 1 48%; /* Ajusta a largura para ocupar metade da linha */
+  min-width: 280px;
+}
+
+/* Define a cor verde global para todos os textos */
+* {
+  color: #009688;
+}
