@@ -24,7 +24,7 @@
 
 .instruct {
   background-color: rgb(249, 116, 43);
-  padding: 40px 250px 40px 40px; /* espaço para o círculo */
+  padding: 40px 250px 40px 40px; 
   border-radius: 0px 25px 25px 0px;
   color: white;
   max-width: 600px;
@@ -41,7 +41,7 @@
   margin-left: -150px;
   overflow: visible;
   z-index: 3;
-  top: -60px; /* <<--- Este é o novo ajuste importante! */
+  top: -60px; 
 }
 
 .circle::after {
