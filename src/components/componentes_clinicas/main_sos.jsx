@@ -70,7 +70,7 @@ const Main_sos = () => {
           <p>Enxague com água fria por alguns minutos. <br />
             Não use cremes ou pomadas sem orientação veterinária.</p>
           <br />
-          <h3>Obstrução respiratória (engasgo)</h3>
+          <h3>5 - Obstrução respiratória (engasgo)</h3>
           <p>Se for visível, tente remover o objeto com cuidado. <br />
             Se o gato perder a consciência, faça respiração artificial até chegar no veterinário.</p>
         </div>
