@@ -145,10 +145,10 @@ https://drive.google.com/file/d/1Sgd8BQlXeXvANjutKseJH-Jaa3KMhIIw/view?usp=drive
 
 
 <div>
-  <!-- Imagem 1 (convertida para link direto) -->
-  <img src="https://drive.google.com/uc?export=view&id=1_JQ__jiEHpmY3OC0FM7W7cC3c58IUZVX" width="500" alt="Programação em pares 1" />
+  
+  <img src="/time/Imagem do WhatsApp de 2025-04-29 à(s) 20.42.23_95370a6d.jpg" width="500" alt="Programação em pares 1" />
 
-  <!-- Imagem 2 (também convertida para link direto) -->
-  <img src="https://drive.google.com/uc?export=view&id=1Sgd8BQlXeXvANjutKseJH-Jaa3KMhIIw" width="500" alt="Programação em pares 2" />
+  
+  <img src="/time/Imagem do WhatsApp de 2025-04-29 à(s) 20.42.27_c145dfb6.jpg" width="500" alt="Programação em pares 2" />
 </div>
 
