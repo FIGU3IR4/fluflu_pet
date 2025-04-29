@@ -144,10 +144,11 @@ https://drive.google.com/file/d/1Sgd8BQlXeXvANjutKseJH-Jaa3KMhIIw/view?usp=drive
 
 
 
-
 <div>
-  <img src="https://drive.google.com/uc?export=view&id=1_JQ__jiEHpmY3OC0FM7W7cC3c58IUZVX" >
+  <!-- Imagem 1 (convertida para link direto) -->
+  <img src="https://drive.google.com/uc?export=view&id=1_JQ__jiEHpmY3OC0FM7W7cC3c58IUZVX" width="500" alt="Programação em pares 1" />
 
-  <img src="https://drive.google.com/file/d/1Sgd8BQlXeXvANjutKseJH-Jaa3KMhIIw/view?usp=drive_link" >
+  <!-- Imagem 2 (também convertida para link direto) -->
+  <img src="https://drive.google.com/uc?export=view&id=1Sgd8BQlXeXvANjutKseJH-Jaa3KMhIIw" width="500" alt="Programação em pares 2" />
 </div>
 
