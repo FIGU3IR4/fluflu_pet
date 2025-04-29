@@ -142,6 +142,9 @@ Programação em pares
 https://drive.google.com/file/d/1_JQ__jiEHpmY3OC0FM7W7cC3c58IUZVX/view?usp=drive_link
 https://drive.google.com/file/d/1Sgd8BQlXeXvANjutKseJH-Jaa3KMhIIw/view?usp=drive_link
 
+![Girl in a jacket](https://drive.google.com/uc?export=view&id=1_JQ__jiEHpmY3OC0FM7W7cC3c58IUZVX)
+
+
 <div>
   <img src="https://drive.google.com/uc?export=view&id=1_JQ__jiEHpmY3OC0FM7W7cC3c58IUZVX" alt="Girl in a jacket" width="500" height="600">
 </div>
