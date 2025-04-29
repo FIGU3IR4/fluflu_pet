@@ -111,13 +111,13 @@ Por favor, leia o arquivo COLABORACAO.md para obter detalhes sobre o nosso códi
 Usamos SemVer para controle de versão. Para as versões disponíveis, veja as tags neste repositório.
 
 ✒️ Autores
-Wesley Figueira – Desenvolvimento
+Wesley Figueira – Desenvolvedor
 
-Fábio Reis – Desenvolvimento
+Fábio Reis – Desenvolvedor
 
-Allan D'Avila – Desenvolvimento
+Allan D'Avila – Designer UX
 
-Victor Gabriel – Documentação
+Victor Gabriel – Desenvolvedor/Designer 
 
 📄 Licença
 Este projeto está licenciado sob a Licença MIT – veja o arquivo LICENSE.md para detalhes.
@@ -137,4 +137,5 @@ https://drive.google.com/drive/folders/1GV0d_ZK1dwx172zIghuKxvc6S_HtNy9J
 Screncast
 
 https://www.loom.com/share/9c793ec0f3b548e3a7496de7a58089fd?sid=86f55576-3fb0-49c6-8863-1eebf6f85ccc
+
 
