@@ -115,7 +115,7 @@ Wesley Figueira – Desenvolvedor
 
 Fábio Reis – Desenvolvedor
 
-Allan D'Avila – Designer UX
+Allan DAvila– Designer UX
 
 Victor Gabriel – Desenvolvedor/Designer 
 
