@@ -133,3 +133,8 @@ Diagrama do Fluflu pet
 
 https://drive.google.com/drive/folders/1GV0d_ZK1dwx172zIghuKxvc6S_HtNy9J
 
+
+Screncast
+
+https://www.loom.com/share/9c793ec0f3b548e3a7496de7a58089fd?sid=86f55576-3fb0-49c6-8863-1eebf6f85ccc
+
