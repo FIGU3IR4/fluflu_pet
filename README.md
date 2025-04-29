@@ -122,3 +122,10 @@ Victor Gabriel – Documentação
 📄 Licença
 Este projeto está licenciado sob a Licença MIT – veja o arquivo LICENSE.md para detalhes.
 
+📄 Paginas desenvolvidas:
+
+- Primeiros socorros
+- Avaliar Clinicas
+- Buscar de clinicas
+
+
