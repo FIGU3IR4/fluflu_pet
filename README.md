@@ -146,9 +146,12 @@ https://drive.google.com/file/d/1Sgd8BQlXeXvANjutKseJH-Jaa3KMhIIw/view?usp=drive
 
 <div>
   
-  <img src="/time/Imagem do WhatsApp de 2025-04-29 à(s) 20.42.23_95370a6d.jpg" width="500" alt="Programação em pares 1" />
+  <img src="time/Imagem do WhatsApp de 2025-04-29 à(s) 20.42.23_95370a6d.jpg" width="500" alt="Programação em pares 1" />
 
   
-  <img src="/time/Imagem do WhatsApp de 2025-04-29 à(s) 20.42.27_c145dfb6.jpg" width="500" alt="Programação em pares 2" />
+  <img src="time/Imagem do WhatsApp de 2025-04-29 à(s) 20.42.27_c145dfb6.jpg" width="500" alt="Programação em pares 2" />
+
+
+
 </div>
 
