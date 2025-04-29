@@ -138,4 +138,9 @@ Screncast
 
 https://www.loom.com/share/9c793ec0f3b548e3a7496de7a58089fd?sid=86f55576-3fb0-49c6-8863-1eebf6f85ccc
 
+Programação em pares
+https://drive.google.com/file/d/1_JQ__jiEHpmY3OC0FM7W7cC3c58IUZVX/view?usp=drive_link
+https://drive.google.com/file/d/1Sgd8BQlXeXvANjutKseJH-Jaa3KMhIIw/view?usp=drive_link
+
+<img src="[img_girl.jpg" alt="Girl in a jacket](https://drive.google.com/file/d/1_JQ__jiEHpmY3OC0FM7W7cC3c58IUZVX/view?usp=drive_link)" width="500" height="600">
 
