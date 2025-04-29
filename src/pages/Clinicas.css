@@ -11,3 +11,36 @@
   
 }
 
+.carrossel-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* separa os itens */
+  gap: 1rem;
+  padding: 0 20px;
+}
+
+.Lojas_clinicas {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow: hidden;
+  flex: 1; /* permite que o container se expanda entre as setas */
+}
+.carrossel-container button {
+  background-color: transparent;
+  color: green;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.2s ease;
+}
+
+.carrossel-container button:hover {
+  transform: scale(1.2);
+}
+
+.carrossel-container button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
