@@ -27,17 +27,7 @@ Antes de começar, você precisará ter instalado em sua máquina:
 
 Siga os passos abaixo para rodar o projeto localmente:
 
-<div>
-  
-  <img height="500em" width="500em" src="/time/imagem1.jpg" width= />
 
-
-  
-  <img src="/time/imagem2.jpg" />
-
-
-
-</div>
 
 ```bash
 # Clone o repositório
@@ -156,6 +146,13 @@ https://drive.google.com/file/d/1Sgd8BQlXeXvANjutKseJH-Jaa3KMhIIw/view?usp=drive
 ````
 
 Programação em Par
+
+
+Tivemos Algumas reuniões em grupo para definir o projeto, e codar em conjunto, definindo as entregas.
+
+ nas reuniões também verificamos  bugs e  corrigimos os mesmos.
+
+desafiador e muito aprendizado 
 
 <div>
   
