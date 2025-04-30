@@ -153,7 +153,16 @@ https://www.loom.com/share/9c793ec0f3b548e3a7496de7a58089fd?sid=86f55576-3fb0-49
 Programação em pares
 https://drive.google.com/file/d/1_JQ__jiEHpmY3OC0FM7W7cC3c58IUZVX/view?usp=drive_link
 https://drive.google.com/file/d/1Sgd8BQlXeXvANjutKseJH-Jaa3KMhIIw/view?usp=drive_link
+````
 
+Programação em Par
+
+<div>
+  
+  <img height="500em" width="500em" src="/time/imagem1.jpg" width= />
+
+
+</div>
 
 
 
