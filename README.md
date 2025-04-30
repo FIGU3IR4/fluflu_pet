@@ -29,7 +29,8 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 <div>
   
-  <img src="/time/imagem1.jpg" />
+  <img height="500em" width="500em" src="/time/imagem1.jpg" width= />
+
 
   
   <img src="/time/imagem2.jpg" />
