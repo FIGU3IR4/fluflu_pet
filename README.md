@@ -27,6 +27,17 @@ Antes de começar, você precisará ter instalado em sua máquina:
 
 Siga os passos abaixo para rodar o projeto localmente:
 
+<div>
+  
+  <img src="/time/imagem1.jpg" />
+
+  
+  <img src="/time/imagem2.jpg" />
+
+
+
+</div>
+
 ```bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/fluflu-pet.git
@@ -144,14 +155,5 @@ https://drive.google.com/file/d/1Sgd8BQlXeXvANjutKseJH-Jaa3KMhIIw/view?usp=drive
 
 
 
-<div>
-  
-  <img src="/time/imagem1.jpg" />
 
-  
-  <img src="/time/imagem2.jpg" />
-
-
-
-</div>
 
