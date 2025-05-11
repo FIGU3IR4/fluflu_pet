@@ -142,7 +142,11 @@ const Avaliacao_clinica = () => {
           </div>
 
           <div className="secao-enviar">
+
            <a href="/clinicas"><button className="botao-enviar">Enviar</button></a> 
+
+         <a href="/clinicas"> <button className="botao-enviar">Enviar</button></a>  
+
           </div>
         </div>
       </div>

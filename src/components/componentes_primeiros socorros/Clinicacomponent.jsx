@@ -9,7 +9,14 @@ function Clinica({ clinica }) {
         className={style.clinicaImage}
       />
       <div className={style.clinicaInfo}>
-        <h2>{clinica.nome}</h2>
+      <h2>
+  <a
+    href={`/clinica/${encodeURIComponent(clinica.nome.toLowerCase().replace(/\s+/g, '-'))}`}
+    className={style.clinicaLink}
+  >
+    {clinica.nome}
+  </a>
+</h2>
         <p>{clinica.endereco}</p>
         <p>Telefone: {clinica.telefone}</p>
       </div>

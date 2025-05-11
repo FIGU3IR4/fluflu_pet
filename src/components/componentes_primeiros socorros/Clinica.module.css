@@ -45,3 +45,14 @@
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
+
+
+.clinicaLink {
+  text-decoration: none;
+  color: #2e8b57; 
+  transition: color 0.3s;
+}
+
+.clinicaLink:hover {
+  color: #006400; 
+}
