@@ -13,7 +13,7 @@ const Clinicas = () => {
 
       <Barra_pesquisa />
       <div className="Lojas_clinicas">
-      <i class="fa-solid fa-arrow-left"></i>
+     
 
         
         <Clinica
@@ -50,7 +50,7 @@ const Clinicas = () => {
             telefone: "(81) 987905127",
           }}
         />
-        <i class="fa-solid fa-arrow-right"></i>
+        
       </div>
 
       <Footer />
