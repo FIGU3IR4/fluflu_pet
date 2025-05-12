@@ -1,0 +1,22 @@
+.word1{
+  color: #0A8384;
+}
+
+.word2{
+color: #F9742B;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.animal_foto img{
+  width: 450px;
+}
+h1{
+ font-size: 50px;
+ margin-left: 50px;
+ margin-bottom: 150px;
+ padding-top: 50px;
+}
