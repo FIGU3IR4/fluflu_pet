@@ -15,8 +15,12 @@ color: #F9742B;
   width: 450px;
 }
 h1{
- font-size: 50px;
- margin-left: 50px;
+ font-size: 53px;
+ margin-left: 80px;
  margin-bottom: 150px;
  padding-top: 50px;
+}
+
+.animal_foto img{
+ width: 750px;
 }

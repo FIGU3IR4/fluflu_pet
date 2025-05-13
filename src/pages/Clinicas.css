@@ -1,31 +1,30 @@
-.Lojas_clinicas{
-  display: flex;
-  margin-top: 50px;
-
-}
-
-.Lojas_clinicas i{
-  width: 120px;
-  
-  padding-top: 170px;
-  
-}
-
 .carrossel-container {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* separa os itens */
+  justify-content: center; 
   gap: 1rem;
   padding: 0 20px;
+  margin-top: 60px;
 }
 
 .Lojas_clinicas {
   display: flex;
-  flex-wrap: nowrap;
-  gap: 20px;
   overflow: hidden;
-  flex: 1; /* permite que o container se expanda entre as setas */
+  width: 100%;
 }
+
+.Lojas_clinicas-inner {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  gap: 100px; /* Espaçamento entre os itens */
+}
+
+.Lojas_clinicas-item {
+  flex: 0 0 calc(33.33% - 10px); /* Exibe 3 itens por vez */
+  box-sizing: border-box;
+  padding: 25px; /* Adiciona um padding para espaçamento dentro de cada item */
+}
+
 .carrossel-container button {
   background-color: transparent;
   color: green;

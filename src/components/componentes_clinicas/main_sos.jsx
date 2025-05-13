@@ -5,7 +5,8 @@ const Main_sos = () => {
     <div className="main-container">
       <div className="top-content">
         <div className="instruct">
-          <h1>Primeiros Socorros para Pets</h1>
+          <div className="title"> <h2>Primeiros Socorros para Pets</h2></div>
+         
           <br />
           <h2>Cuide do Seu Amigo em Momentos de Emergência</h2>
           <br />

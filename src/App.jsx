@@ -21,7 +21,7 @@ function App() {
           <Route path="/clinica/pro-animal/avaliacao" element={<Avaliacao_clinica/>} />
           <Route path="/" element={<Home/>} />
           <Route path="/petfit" element={<Petfit/>} />
-          <Route path="/clinica/pro-animal" element={<Clinica_especifica/>} />
+          <Route path="/clinica/pet-dream" element={<Clinica_especifica/>} />
         </Routes>
       </BrowserRouter>
     </>

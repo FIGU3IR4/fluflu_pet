@@ -1,17 +1,22 @@
 import styles from "./Barra_pesquisa.module.css";
 
-function Barra_pesquisa() {
+function Barra_pesquisa({ onSearchChange }) {
+  const handleInputChange = (event) => {
+    if (onSearchChange) {
+      onSearchChange(event.target.value);
+    }
+  };
+
   return (
     <div className={styles.barra}>
-      <i class="fa-solid fa-magnifying-glass"></i>{" "}
+      <i className="fa-solid fa-magnifying-glass"></i>
       <input
-        c
         type="text"
-        name=""
-        id=""
         placeholder="  Animal, Cidade, Procedimento"
+        onChange={handleInputChange}
       />
     </div>
   );
 }
+
 export default Barra_pesquisa;

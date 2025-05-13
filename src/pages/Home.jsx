@@ -1,6 +1,7 @@
 import Header from "../componentes_reutilizaveis/header";
 import Footer from "../componentes_reutilizaveis/Footer";
 import "./Home.css";
+import Pets1 from "../imgs/pets1.png";
 const Home = () => {
   return (
     <div>
@@ -20,7 +21,7 @@ const Home = () => {
         </div>
         <div className="animal_foto">
           <img
-            src="https://conexaoplaneta.com.br/wp-content/uploads/2021/10/dia-mundial-animais-2-conexao-planeta.jpg"
+            src={Pets1}
             alt=""
           />
         </div>
