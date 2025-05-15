@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import Logo from "../imgs/logo.png";
+import Butao_login from "./Butao_login";
 
 const Header = () => {
   return (
@@ -29,9 +30,7 @@ const Header = () => {
           <div class="buttons">
             <div class="user-icon">
               <i class="fa-solid fa-user"></i>{" "}
-              <strong>
-                <p>Victor é feliz</p>
-              </strong>
+            <Butao_login/>
             </div>
             <div>
               {" "}

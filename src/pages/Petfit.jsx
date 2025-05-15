@@ -1,13 +1,13 @@
 import Header from "../componentes_reutilizaveis/header";
 import Footer from "../componentes_reutilizaveis/Footer";
-
+import Petfit_sos from "../components/componentes_petfit/petfit";
 function Petfit(){
     return(
       
 
         <div>
               <Header/>
-            <h1>aqui é p pet fit </h1>
+            <Petfit_sos/>
             <Footer/>
             </div>
             

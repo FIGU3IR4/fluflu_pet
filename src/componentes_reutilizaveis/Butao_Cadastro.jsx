@@ -21,7 +21,8 @@ function Button_Cadastro() {
     têm acesso a uma experiência mais ágil e segura. Cadastre-se agora e 
     faça parte dessa comunidade que transforma o cuidado com os animais!
   </p>
-  <button id="cta-button">Cadastre-se ou Faça Login</button>
+  <a href="/login"><button  id="cta-button">Cadastre-se ou Faça Login</button> </a>
+
 </div>
     </div>
   );

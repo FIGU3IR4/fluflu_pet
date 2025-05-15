@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Petfit from "./pages/Petfit";
 import Avaliacao_clinica from "./pages/Sub_pages/Avaliacao_clinica";
 import Clinica_especifica from "./pages/Sub_pages/Clinica_especifica";
+import Login from "./pages/Sub_pages/login";
 
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/petfit" element={<Petfit/>} />
           <Route path="/clinica/pet-dream" element={<Clinica_especifica/>} />
+          <Route path="/login" element={<Login/>} />
         </Routes>
       </BrowserRouter>
     </>

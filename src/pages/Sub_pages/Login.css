@@ -1,0 +1,90 @@
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centraliza o título e outros textos */
+}
+
+/* Título do formulário */
+.login-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilização dos inputs */
+.form-input {
+  width: 300px;
+  height: 30px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.form-input:focus {
+  border-color: #F9742B;
+  box-shadow: 0 0 4px #F9742B;
+}
+
+/* Opções adicionais do formulário */
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-input {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  color: #555;
+}
+
+.forgot-password {
+  font-size: 14px;
+  color: #F9742B;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.forgot-password:hover {
+  color: #0056b3;
+}
+
+
+
+/* Mensagem de registro */
+.register-prompt {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.register-link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.register-link:hover {
+  color: #0056b3;
+}

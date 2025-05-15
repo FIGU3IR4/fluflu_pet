@@ -1,0 +1,83 @@
+.geral_petfit {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  padding: 30px 20px;
+  color: #0A8384;
+}
+
+/* Cabeçalho */
+.topo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.topo .titulo h2 {
+  font-size: 30px;
+  color: #0A8384;
+  margin-bottom: 15px;
+}
+
+.topo h3 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6;
+  color: #333;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+/* Blocos principais */
+.atividades_fisicas {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Seção de atividades e alimentos */
+.tipo_atividade,
+.alimentos_ideais {
+  background-color: #F9742B10; /* laranja suave com transparência */
+  border-left: 6px solid #F9742B;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(10, 131, 132, 0.1);
+}
+
+/* Título das seções */
+.tipo_atividade h2,
+.alimentos_ideais h2 {
+  color: #F9742B;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Subtítulos e textos */
+.tipo_atividade h3,
+.alimentos_ideais h3 {
+  color: #0A8384;
+  font-size: 18px;
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+
+.tipo_atividade p,
+.alimentos_ideais p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+  .atividades_fisicas {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .tipo_atividade,
+  .alimentos_ideais {
+    flex: 1;
+    margin: 0 10px;
+  }
+}
