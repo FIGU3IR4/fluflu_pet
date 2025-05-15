@@ -2,12 +2,12 @@ import Header from "../componentes_reutilizaveis/header";
 import Footer from "../componentes_reutilizaveis/Footer";
 import "./Home.css";
 import Pets1 from "../imgs/pets1.png";
+import Button_Cadastro from "../componentes_reutilizaveis/Butao_Cadastro";
 const Home = () => {
   return (
     <div>
       <Header />
       <div className="main">
-      
         <div>
           <h1>
             <strong>
@@ -20,11 +20,11 @@ const Home = () => {
           </h1>
         </div>
         <div className="animal_foto">
-          <img
-            src={Pets1}
-            alt=""
-          />
+          <img src={Pets1} alt="" />
         </div>
+      </div>
+      <div>
+        <Button_Cadastro />
       </div>
 
       <Footer />
