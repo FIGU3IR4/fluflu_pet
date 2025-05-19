@@ -27,16 +27,25 @@ function Login() {
           </a>
         </div>
 
-       <Butao_login/>
+        <Butao_login />
 
-        
-          <p>
-            Não tem uma conta?{" "}
-            <a href="#" className="register-link">
-              Registre-se
-            </a>
-          </p>
-       
+       <div className="noconta">
+
+        <p>Não tem uma conta? <a href="/Cadastro/clinica"> <strong>Inscreva-se</strong></a></p>
+
+       </div>
+
+       <div id="logar">
+        <h3>
+          logar com 
+        </h3>
+       </div>
+       <div class="icons_login">
+        <i class="fa-brands fa-google"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-apple"></i>
+       </div>
+      
       </div>
 
       <div>

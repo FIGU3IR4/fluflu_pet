@@ -1,0 +1,109 @@
+
+
+.cadastro-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.cadastro-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.cadastro-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-input {
+  flex: 1;
+  min-width: 280px;
+  padding: 14px 18px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s border, 0.3s box-shadow;
+}
+
+.form-input:focus {
+  border-color: #F9742B;
+  box-shadow: 0 0 6px rgba(249, 116, 43, 0.3);
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #444;
+  font-size: 14px;
+  text-align: left;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 280px;
+}
+
+.botao-cadastrar {
+  background-color: #F9742B;
+  color: white;
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s background;
+}
+
+.botao-cadastrar:hover {
+  background-color: #d55a1d;
+}
+
+.toggle-options {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.toggle-options label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 500;
+  color: #333;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.toggle-options input[type="radio"] {
+  accent-color: #F9742B;
+  transform: scale(1.2);
+}
+
+.toggle-options label:hover {
+  background: #f8e7de;
+}

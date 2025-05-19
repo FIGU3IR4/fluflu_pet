@@ -21,7 +21,7 @@ const Petfit_sos = () => {
       
       <div className="atividades_fisicas">
         <div className="tipo_atividade">
-          <h2>Primeiros socorros para cachorros:</h2>
+          <h2>Dicas para cachorros:</h2>
           <h3>1 - Caminhada</h3>
           <p>As caminhadas são excelentes - normalmente funcionam<b />
              para praticamente todos os cães. Fazer de 2 a 3 caminhadas<b />
@@ -66,7 +66,7 @@ const Petfit_sos = () => {
           </div>
   
         <div className="alimentos_ideais">
-          <h2>Primeiros socorros para gatos:</h2>
+          <h2>Dicas para gatos:</h2>
           <h3>1 - Carne</h3>
           <p>A carne é uma fonte essencial de proteína para cães, que<b />
              é importante para o crescimento, reparação tecidual e <b />
