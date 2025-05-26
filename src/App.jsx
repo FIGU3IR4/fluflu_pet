@@ -11,6 +11,10 @@ import Clinica_especifica from "./pages/Sub_pages/Clinica_especifica";
 import Login from "./pages/Sub_pages/login";
 import CadastroClinica from "./pages/Sub_pages/Cadastro_clinica";
 import CadastroUsuario from "./pages/Sub_pages/Cadastro_user";
+import ClinicPage from "./pages/ClinicPage";
+import Agendamento from "./pages/Sub_pages/Agendamento/Agendamento";
+import Adm2 from "./pages/adm2";
+
 
 function App() {
   return (
@@ -29,6 +33,10 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/Cadastro/clinica" element={<CadastroClinica />} />
           <Route path="/Cadastro/usuario" element={<CadastroUsuario />} />
+           <Route path="/clinica/:id" element={<ClinicPage />} />
+          <Route path="/agd" element={<Agendamento/>} />
+           <Route path="/adm" element={<Adm2/>} />
+           
         </Routes>
       </BrowserRouter>
     </>

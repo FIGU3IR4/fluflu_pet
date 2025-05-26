@@ -1,0 +1,28 @@
+[
+  {
+    "id": "petz",
+    "name": "Clínica Fluflu Pet",
+    "description": "Especialistas em cuidados com seu pet.",
+    "address": "Rua dos Animais, 123",
+    "hours": "08:00 - 18:00",
+    "services": ["Banho e Tosa", "Consulta Veterinária", "Vacinação"],
+    "image": "AC9h4nr62O3eMpHhkknh707NlyD6kQBFO_MCdMgZNNw9s3xR1daz4B5rWBV7VWBL9GM13Ej0",
+    "contact": {
+      "phone": "1234-5678",
+      "email": "contato@fluflu.com"
+    }
+  },
+  {
+    "id": "pet-filhos",
+    "name": "Clínica Amigos dos Pets",
+    "description": "Cuidado com amor e excelência.",
+    "address": "Av. Pet Lovers, 45",
+    "hours": "09:00 - 20:00",
+    "services": ["Consultas", "Cirurgias", "Emergências"],
+    "image": "/images/clinic-2.jpg",
+    "contact": {
+      "phone": "9876-5432",
+      "email": "amigos@pets.com"
+    }
+  }
+]

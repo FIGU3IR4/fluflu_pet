@@ -17,12 +17,9 @@ function Footer(){
                 <p>&copy; 2025 Fluflu Pet. Todos os direitos reservados.</p>
             </div>
             <div className="footer-bottom">
-                <p>Desenvolvedores:</p>
+                
                 <ul className="dev-list">
-                    <li>Victor Figueira</li>
-                    <li>Welsey Figueira</li>
-                    <li>Allan D'Avila</li>
-                    <li>Fabio Reis</li>
+                   <li>Mad Dogs Tech</li>
                 </ul>
           
         </div>
