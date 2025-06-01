@@ -119,7 +119,9 @@ Fábio Reis – Desenvolvedor
 
 Allan DAvila– Designer UX
 
-Victor Gabriel – Desenvolvedor/Designer 
+Victor Gabriel – Desenvolvedor/Designer
+
+Deyvison Guerra - Desenvolvedor
 
 📄 Licença
 Este projeto está licenciado sob a Licença MIT – veja o arquivo LICENSE.md para detalhes.
