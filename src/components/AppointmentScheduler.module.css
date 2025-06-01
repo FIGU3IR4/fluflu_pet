@@ -1,0 +1,304 @@
+.mainContainer {
+  display: flex;
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  max-width: 950px; /* Adjust as needed */
+  margin: 30px auto; /* Center the component */
+  gap:60px;
+}
+
+/* --- Calendar Section --- */
+.calendarSection {
+  flex-basis: 40%; /* Approx. 40% width for calendar */
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #eee;
+  padding: 5px;
+}
+
+.calendarContainer {
+  display: flex;
+  flex-grow: 1;
+}
+
+.monthSidebar {
+  background-color: #4a4a4a;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100px; /* Fixed width as per image */
+  box-sizing: border-box;
+}
+
+.monthText {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.yearText {
+  font-size: 1.2em;
+}
+
+.calendarGrid {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.weekdaysHeader {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  color: #777;
+  font-size: 0.9em;
+}
+
+.dayCell {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #333;
+  margin: 2px; /* Small margin to separate circles */
+}
+
+.dateNumber {
+  /* No specific styling for date number itself if it's within the circle */
+}
+
+.emptyDay {
+  visibility: hidden; /* Takes up space but is not visible */
+}
+
+.available {
+  background-color: #20b2aa; /* Teal-like color */
+  color: white; /* Date number color for available */
+}
+
+.available:hover:not(.selectedDay) {
+  background-color: #1a8f88;
+}
+
+.unavailable {
+  background-color: #ff8c00; /* Orange-like color */
+  cursor: not-allowed;
+  color: white; /* Date number color for unavailable */
+}
+
+.selectedDay {
+  box-shadow: 0 0 0 3px #1a8f88; /* Highlight for selected day */
+  border: 2px solid #1a8f88; /* Border for selected day */
+  background-color: #20b2aa; /* Keep available color */
+}
+
+.daysGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  padding-top: 10px;
+  justify-items: center; /* Center items in the grid cells */
+}
+
+.legend {
+  padding: 10px 20px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.legendColor {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.availableColor {
+  background-color: #20b2aa;
+}
+
+.unavailableColor {
+  background-color: #ff8c00;
+}
+
+/* --- Appointment Details Section --- */
+.appointmentDetailsSection {
+  flex-basis: 60%; /* Approx. 60% width for details */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.clinicHeader {
+  display: flex;
+  align-items: center;
+  background-color: #20b2aa;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.clinicIcon {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.clinicName {
+  flex-grow: 1;
+}
+
+.currentDate {
+  font-size: 0.9em;
+}
+
+.timeSlots {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.slotHeading {
+  font-size: 1.1em;
+  color: #333;
+  margin: 0;
+}
+
+.timeButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.timeButton {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  outline: none;
+}
+
+.timeButton:hover:not(:disabled) {
+  background-color: #e0e0e0;
+}
+
+.timeButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.selectedTime {
+  background-color: #20b2aa;
+  color: white;
+  border-color: #20b2aa;
+}
+
+.selectedTime:hover {
+  background-color: #1a8f88;
+  color: white;
+  border-color: #1a8f88;
+}
+
+.paymentOptions {
+  margin-top: 20px;
+}
+
+.paymentHeading {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.paymentButtons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.paymentButton {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px; /* Uniform height for payment buttons */
+  width: 90px; /* Uniform width for payment buttons */
+  box-sizing: border-box;
+  outline: none;
+}
+
+.paymentButton:hover {
+  background-color: #e0e0e0;
+}
+
+.selectedPayment {
+  border-color: #20b2aa;
+  box-shadow: 0 0 0 3px #20b2aa; /* Highlight for selected payment option */
+}
+
+.paymentIcon {
+  max-width: 100%; /* Ensure image fits button */
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.scheduleButton {
+  background-color: #ff8c00; /* Orange color for the button */
+  color: white;
+  border: none;
+  border-radius: 25px; /* More rounded corners */
+  padding: 15px 30px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  align-self: center; /* Center the button */
+  margin-top: auto; /* Pushes the button to the bottom */
+  width: fit-content;
+  outline: none;
+}
+
+.scheduleButton:hover:not(:disabled) {
+  background-color: #e67d00;
+}
+
+.scheduleButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background-color: #ccc; /* Grey out when disabled */
+}
