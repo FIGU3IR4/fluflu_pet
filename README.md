@@ -34,7 +34,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 git clone https://github.com/seu-usuario/fluflu-pet.git
 
 # Acesse a pasta do projeto
-cd fluflu-pet
+cd fluflu_pet
 
 # Instale as dependências
 npm install
