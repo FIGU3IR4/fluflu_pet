@@ -1,11 +1,3 @@
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #fef8f6;
-}
-
 .container-pesquisa {
   display: flex;
   justify-content: center;
@@ -13,6 +5,7 @@ body {
   padding: 20px;
 }
 
+/* Cartão principal */
 .cartao-pesquisa {
   background-color: #ffffff;
   padding: 30px;
@@ -27,14 +20,16 @@ body {
   justify-content: space-between;
 }
 
+/* Título */
 .titulo-pesquisa {
   font-size: 1.8rem;
-  color: #009688;
+  color: #2a2a2a; /* Tom escuro, simplista */
   text-align: center;
   width: 100%;
   margin-bottom: 20px;
 }
 
+/* Seções do formulário */
 .secao-pesquisa {
   flex: 1 1 calc(33% - 20px);
   min-width: 280px;
@@ -43,20 +38,22 @@ body {
 .secao-pesquisa p {
   font-size: 1rem;
   margin-bottom: 10px;
-  color: #009688; /* Letras verdes */
+  color: #2a2a2a; /* Tom escuro */
 }
 
+/* Opções de seleção */
 .opcoes-pesquisa label {
   display: block;
   font-size: 1rem;
   margin-bottom: 5px;
-  color: #009688; /* Letras verdes */
+  color: #555; /* Tom intermediário */
 }
 
 .opcoes-pesquisa input {
   margin-right: 8px;
 }
 
+/* Escalas */
 .escala-pesquisa {
   display: flex;
   align-items: center;
@@ -66,7 +63,7 @@ body {
 
 .escala-pesquisa span {
   font-size: 0.9rem;
-  color: #009688; /* Letras verdes */
+  color: #555; /* Tom intermediário */
 }
 
 .escala-pesquisa label {
@@ -74,16 +71,17 @@ body {
   flex-direction: column;
   align-items: center;
   font-size: 0.9rem;
-  color: #009688; /* Letras verdes */
+  color: #555; /* Tom intermediário */
 }
 
 .escala-pesquisa input {
   margin-bottom: 5px;
 }
 
+/* Avaliações */
 .avaliacao-pesquisa p {
   margin-bottom: 5px;
-  color: #009688; /* Letras verdes */
+  color: #2a2a2a; /* Tom escuro */
   font-size: 1rem;
 }
 
@@ -94,8 +92,8 @@ body {
 
 .estrelas-pesquisa label {
   cursor: pointer;
-  font-size: 1.5rem; /* Maior visibilidade */
-  color: #cccccc; /* Cor padrão da estrela */
+  font-size: 1.5rem; /* Melhor visibilidade */
+  color: #cccccc; /* Cor padrão das estrelas */
   transition: color 0.3s ease;
 }
 
@@ -103,16 +101,17 @@ body {
   display: none; /* Oculta os inputs */
 }
 
-/* Estrelas amarelas ao selecionar */
+/* Estrelas preenchidas ao selecionar */
 .estrelas-pesquisa input:checked ~ label {
-  color: #ffa500; /* Cor amarela */
+  color: #4a90e2; /* Azul suave */
 }
 
-/* Destaca as estrelas anteriores à selecionada */
+/* Destaca estrelas anteriores à selecionada */
 .estrelas-pesquisa input:checked ~ label ~ label {
-  color: #ffa500; /* Cor amarela */
+  color: #4a90e2; /* Azul suave */
 }
 
+/* Campo de texto */
 .campo-texto {
   width: 100%;
   height: 100px;
@@ -125,16 +124,17 @@ body {
 
 .campo-texto:focus {
   outline: none;
-  border-color: #009688;
+  border-color: #4a90e2; /* Azul suave */
 }
 
+/* Botões */
 .secao-enviar {
   text-align: center;
   width: 100%;
 }
 
 .botao-enviar {
-  background-color: #009688;
+  background-color: #4a90e2;
   color: #ffffff;
   border: none;
   padding: 10px 20px;
@@ -145,7 +145,7 @@ body {
 }
 
 .botao-enviar:hover {
-  background-color: #00796b;
+  background-color: #357ab8; /* Azul mais escuro no hover */
 }
 
 /* Layout horizontal */
@@ -156,7 +156,6 @@ body {
 }
 
 .secao-pesquisa {
-  flex: 1 1 48%; 
+  flex: 1 1 48%;
   min-width: 280px;
 }
-

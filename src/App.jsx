@@ -24,7 +24,7 @@ function App() {
           <Route path="/primeiros-socorros" element={<PrimeirosSocorros />} />
           <Route path="/clinicas" element={<Clinicas />} />
           <Route
-            path="/clinica/pro-animal/avaliacao"
+            path="/clinica/avaliacao"
             element={<Avaliacao_clinica />}
           />
           <Route path="/" element={<Home />} />

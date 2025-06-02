@@ -1,25 +1,25 @@
 [
   {
     "id": "petz",
-    "name": "Clínica Fluflu Pet",
+    "name": "Clínica Petz",
     "description": "Especialistas em cuidados com seu pet.",
-    "address": "Rua dos Animais, 123",
-    "hours": "08:00 - 18:00",
+    "address": "Av. Dezessete de Agosto, 295 - Parnamirim, Recife - PE, 52060-590",
+    "hours": "08:00 - 22:00",
     "services": ["Banho e Tosa", "Consulta Veterinária", "Vacinação"],
-    "image": "AC9h4nr62O3eMpHhkknh707NlyD6kQBFO_MCdMgZNNw9s3xR1daz4B5rWBV7VWBL9GM13Ej0",
+    "image": "https://lorena.r7.com/public/assets/img/postagens/post_9661.jpg",
     "contact": {
-      "phone": "1234-5678",
-      "email": "contato@fluflu.com"
+      "phone": "81) 3033-7591",
+      "email": "contato@petz.com"
     }
   },
   {
     "id": "pet-filhos",
-    "name": "Clínica Amigos dos Pets",
+    "name": "Clínica Pet Filhos",
     "description": "Cuidado com amor e excelência.",
     "address": "Av. Pet Lovers, 45",
     "hours": "09:00 - 20:00",
     "services": ["Consultas", "Cirurgias", "Emergências"],
-    "image": "/images/clinic-2.jpg",
+    "image": "https://scontent.frec3-1.fna.fbcdn.net/v/t39.30808-6/333505935_2306319596205837_4450658157843970273_n.png?_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeH2qOAM_XnWF93ANHWIMtu_GnZSHjWA6Q0adlIeNYDpDdGRBwN4zyenJPxkCSeDEdw&_nc_ohc=SmKZp_PvDogQ7kNvwEASztY&_nc_oc=AdkO30WVN4AKmymINjkFTrQlpzkzvaFJAFAFHyJ9evLSn3t3MwuB39FedOU_U13nuxA&_nc_zt=23&_nc_ht=scontent.frec3-1.fna&_nc_gid=7FEYm2Nr4iGIjJB1T0jHFQ&oh=00_AfIkbvefcmoNomFx_3fXr8SVXSvxxb1es6WC_JNDUnE-ng&oe=683BC828",
     "contact": {
       "phone": "9876-5432",
       "email": "amigos@pets.com"

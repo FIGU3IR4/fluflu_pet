@@ -1,135 +1,114 @@
 .main-container {
+  font-family: "Segoe UI", sans-serif;
+  padding: 40px 20px;
+  background: #f9f9f9;
+  color: #fff;
+}
+
+.hero {
   display: flex;
-  flex-direction: column; 
-  align-items: center; 
+  flex-wrap: wrap;
+  background: linear-gradient(to right, rgb(249, 116, 43), rgb(10, 131, 132));
+  border-radius: 20px;
   padding: 40px;
-  color: white;
-  gap: 0px;
-  
-}
-
-.title h2{
-  font-size: 40px;
-}
-
-.top-content {
-  display: flex;
-  justify-content: center;
+  margin-bottom: 40px;
   align-items: center;
-  position: relative;
-  padding: 30px;
-  width: 100%;
+  justify-content: space-between;
 }
 
-.top-content-inner {
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-
-.instruct {
-  background-color: rgb(249, 116, 43);
-  padding: 40px 250px 40px 40px; 
-  border-radius: 0px 25px 25px 0px;
+.hero-text {
+  flex: 1;
   color: white;
-  max-width: 600px;
-  z-index: 2;
-  position: relative;
-  border-radius: 15px;
 }
 
-.circle {
-  width: 500px;
-  height: 500px;
-  background-color: rgb(10, 131, 132);
-  border-radius: 50%;
-  position: relative;
-  margin-left: -150px;
-  overflow: visible;
-  z-index: 3;
-  top: -60px; 
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 
-.circle::after {
-  content: '';
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  width: 600px;
-  height: 600px;
+.hero-img {
+  flex: 1;
+  min-height: 300px;
   background-image: url('/src/imgs/pets.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  transform: translate(-50%, -50%);
 }
 
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-bottom: 30px;
+}
 
+.card {
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  color: white;
+  transition: transform 0.3s ease;
+}
 
-.primeiros_socorros_container {
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-dog {
+  background-color: rgb(10, 131, 132);
+}
+
+.card-cat {
+  background-color: rgb(249, 116, 43);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card li {
+  margin-bottom: 10px;
+}
+
+.tip-box {
+  background-color: rgb(10, 131, 132);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tip-box h2 {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  align-items: stretch;
-  gap: 30px;
-  margin-top: 30px;
-  flex-wrap: wrap; 
-  max-width: 1100px;
+  align-items: center;
+  gap: 10px;
 }
 
-.primeiros_socorros {
-  flex: 1;
-  max-width: 500px;
-  background-color: rgb(10, 131, 132);
-  color: white;
-  padding: 35px;
-  border-radius: 15px;
-  width: 45%;
-  min-width: 300px;
-}
-
-.primeiros_socorros2 {
-  flex: 1;
-  max-width: 500px;
+.links {
   background-color: rgb(249, 116, 43);
-  color: white;
-  padding: 35px;
-  border-radius: 15px;
-  width: 45%;
-  min-width: 300px;
-}
-
-.dica_geral {
-  background-color: rgb(10, 131, 132);
-  color: white;
-  margin-top: 30px;
   padding: 20px;
   border-radius: 15px;
-  width: 80%;
-  max-width: 1000px;
   text-align: center;
-}
-.link_informações {
-  background-color: rgb(249, 116, 43);
-  color: white;
-  margin-top: 30px;
-  padding: 20px;
-  border-radius: 15px;
-  width: 80%;
-  max-width: 1000px;
-  text-align: center;
-}
-.link_informações a, p {
-  color: white;
-  text-decoration: none; 
-  transition: color 0.3s ease;
 }
 
-.link_informações a:hover {
-  color: rgb(10, 131, 132);
-  text-decoration: underline; 
+.links a {
+  display: block;
+  color: white;
+  margin: 10px 0;
+  text-decoration: none;
+  transition: 0.3s ease;
 }
-.link_informações p:hover {
+
+.links a:hover {
   color: rgb(10, 131, 132);
-  text-decoration: underline; 
 }
