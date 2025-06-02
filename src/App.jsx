@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 import Petfit from "./pages/Petfit";
 import Avaliacao_clinica from "./pages/Sub_pages/Avaliacao_clinica";
 import Clinica_especifica from "./pages/Sub_pages/Clinica_especifica";
-
+import AppointmentScheduler from './components/AppointmentScheduler';
 
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/petfit" element={<Petfit/>} />
           <Route path="/clinica/pro-animal" element={<Clinica_especifica/>} />
+          <Route path="appointment-scheduler" element={<AppointmentScheduler/>} />
         </Routes>
       </BrowserRouter>
     </>
