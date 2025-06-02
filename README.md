@@ -31,7 +31,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/fluflu-pet.git
+git clone https://github.com/seu-usuario/fluflu_pet.git
 
 # Acesse a pasta do projeto
 cd fluflu_pet
