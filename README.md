@@ -169,8 +169,8 @@ desafiador e muito aprendizado
 Print do quadro da sprint 
 
 <div>
-   <img height="500em" width="500em" src="/imagens/file:///C:/Users/fgr2_cesar/Pictures/Screenshots/trello.png" />
-</div>
+   ![PrintSprint](https://github.com/FIGU3IR4/fluflu_pet/blob/main/Captura%20de%20tela%202025-06-03%20174959.png)
+</di>
 
 
 
