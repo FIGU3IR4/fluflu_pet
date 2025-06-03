@@ -169,7 +169,7 @@ desafiador e muito aprendizado
 Print do quadro da sprint 
 
 <div>
-   
+   <img height="500em" width="500em" src="file:///C:/Users/fgr2_cesar/Pictures/Screenshots/trello.png" width= />
 </div>
 
 
