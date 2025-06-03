@@ -169,7 +169,7 @@ desafiador e muito aprendizado
 Print do quadro da sprint 
 
 <div>
-   ![PrintSprint](https://github.com/FIGU3IR4/fluflu_pet/blob/main/Captura%20de%20tela%202025-06-03%20174959.png)
+   ![PrintSprint](Captura de tela 2025-06-03 174959.png)
 </di>
 
 
