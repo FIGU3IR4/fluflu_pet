@@ -163,12 +163,16 @@ desafiador e muito aprendizado
 
 </div>
 
-
-
-
 Print do quadro da sprint 
 
- ![PrintSprint](Capturadetela2025-06-03174959.png)
+<div>
+  
+  <img height="500em" width="500em" src="/Capturadetela2025-06-03174959.png" width= />
+
+
+</div>
+
+ 
 
 
 
