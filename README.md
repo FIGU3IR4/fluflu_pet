@@ -169,7 +169,7 @@ desafiador e muito aprendizado
 Print do quadro da sprint 
 
 <div>
-   ![PrintSprint](Captura de tela 2025-06-03 174959.png)
+   ![PrintSprint](Capturadetela2025-06-03174959.png)
 </di>
 
 
