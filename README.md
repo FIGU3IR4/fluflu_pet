@@ -161,7 +161,7 @@ desafiador e muito aprendizado
 
 <div>
   
-  <img height="500em" width="500em" src="/time/imagem1.jpg" width= />
+  <img height="500em" width="500em" src="https://drive.google.com/file/d/1Sgd8BQlXeXvANjutKseJH-Jaa3KMhIIw/view?usp=drive_link" width= />
 
 
 </div>
