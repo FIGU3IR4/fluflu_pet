@@ -148,8 +148,7 @@ https://drive.google.com/file/d/1Sgd8BQlXeXvANjutKseJH-Jaa3KMhIIw/view?usp=drive
 
 programação em pares
 
-https://drive.google.com/file/d/12P5-Y9JlYR1EfjA_tEiDGb2Nu_GVNhpi/view
-
+https://drive.google.com/file/d/12P5-Y9JlYR1EfjA_tEiDGb2Nu_GVNhpi/view?usp=sharing
 ````
 
 Programação em Par
