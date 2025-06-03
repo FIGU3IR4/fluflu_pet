@@ -163,6 +163,12 @@ desafiador e muito aprendizado
 
 </div>
 
+Print do quadro da sprint 
+
+<div>
+   <img heigt="500em" width="500em" src="file:///C:/Users/fgr2_cesar/Pictures/Screenshots/Captura%20de%20tela%202025-06-03%20160202.png" />
+</div>
+
 
 
 
